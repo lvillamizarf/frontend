@@ -175,6 +175,48 @@ h1, h2,h3{
     background-color: #2b272765;
     border: none;
 }
+/*Estilos submenu*/
+#navbar .submenu button{
+    display: block;
+    padding: 10px;
+    width: 80px;
+    text-align: left;
+    border: 0;
+   
+}
+#navbar .submenu button:hover{
+    background-color:#607d8b;
+    transition: all 0.3s ease-in-out ;
+}
+#navbar .submenu {
+    display: none;
+    margin-top: 9px;
+    /* transform: translateY(-5px); */
+    /*transition: all 0.2s ease-in-out; */
+
+      
+}
+#navbar .submenu:hover{
+    display: block;
+    position: absolute;
+    /* transform: translateY(-5px); */
+    /* transition: all 0.5s ease-in-out; */
+}
+
+#navbar ul li a:hover +.submenu{
+    display: block; 
+    position: absolute; 
+    transform: translateY(-5px);
+    transition: all 0.5s ease-in;
+ }
+
+
+
+
+
+
+
+
  @media screen and (max-width: 1000px){
     #main div{
         flex-basis: 100%;  

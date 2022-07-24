@@ -1,8 +1,22 @@
 <nav id="navbar">
     <ul>
         <li><a href="#">Gourmet au Catering</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
+        <li>
+          <a class="about" href="#">About</a>
+          <div class="submenu">
+           <button>Visión</button>
+           <button>Misión</button>
+           <button>Proyectos</button> 
+          </div>
+         </li>
+        <li>
+          <a href="#">Menu</a>
+          <div class="submenu">
+          <button>arepas</button>
+          <button>cafés</button>
+          <button>almuerzos</button> 
+           </div>
+        </li>
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
@@ -73,6 +87,23 @@
        min="2018-01-01" max="2022-12-31">
     <input type="text" placeholder="Message/Special requirements">
     <input id="submitBtn" type="submit" value="SEND MESSAGE">
+  </section>
+  <section id="acciones">
+    <h4>Cambiar Background con botones</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Consectetur id reprehenderit tempora doloremque architecto laboriosam 
+      quo aspernatur cumque esse enim. Optio dicta commodi dolorem porro quae qui 
+      laborum excepturi ad!
+    </p>
+    <button id="red">RED </button>
+    <button id="blue">BLUE</button>
+    <button id="green">GREEN</button>
+
+    <h4>CONTADOR</h4>
+    <h5 id="contador"></h5>
+    <button id="aumentar">+1 </button>
+    <button id="disminuir">-1</button>
+    <button id="reset">reset</button>
   </section>
 </main>
 <footer id="footer"></footer>
